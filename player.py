@@ -1,0 +1,27 @@
+n = input("Enter Player Name: ")
+t = input("Enter Team Name: ")
+i = int(input("Enter Player ID: "))
+j = int(input("Enter Jersey Number: "))
+h = float(input("Enter Height: "))
+
+print("\n--- Player Details ---")
+print("Name:", n)
+print("Team:", t)
+print("Player ID:", i)
+print("Jersey No:", j)
+print("Height:", h)
+
+print("\n Integer Operations ")
+print("ID + Jersey No =", i + j)
+print("ID - Jersey No =", i - j)
+print("ID * Jersey No =", i * j)
+
+print("\n String Operations ")
+print("Length =", len(n))
+print("Uppercase =", n.upper())
+print("Lowercase =", n.lower())
+
+print("\n Data Types ")
+print("ID =", type(i))
+print("Height =", type(h))
+print("Name =", type(n))
